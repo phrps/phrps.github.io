@@ -23,14 +23,150 @@
     color: white;
 }
 
-.center {
-    margin: auto;
+.content-block {
+	box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.75);
+	align-content: center;
+	margin: auto;
     width: 50%;
-    border: 2px solid black;
     padding: 10px;
 }
 
+.contact_block {
+	text-align: center;
+	color: #333;
+}
 .top_image img{
 	display: block;
 	margin: 0 auto;
 }
+
+.content-divider { 
+  height: 1px;
+  width: auto;
+  margin-left:  15%;
+  margin-right: 15%;
+  margin-top: 15px;
+  margin-bottom: 15px; 
+  background: #CCCCCC;
+  align-content: center;
+ }
+ 
+.main-block {
+	text-align: center;
+	color: #333;
+}
+
+.wrapper { 
+  border : 2px solid #000; 
+  overflow:hidden;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.content-links {
+	margin-top: 2px;
+	align-content: center;
+	text-align: center;
+}
+
+.content-links  a {
+  text-decoration: none;
+  text-align: center;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+  color: #8c8c8c;
+}
+
+.content-profInfo {
+  text-decoration: none;
+  text-align: center;
+  color: #46466d;
+}
+
+.content-profInfo p a {
+  text-decoration: none;
+  color: #0000e6;
+}
+
+.content-profInfo h2 {
+	font-size: 18px;
+	color: 6666ff;
+	text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+}
+
+.project-wrapper {
+	box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.75);
+	margin-top: 10px;
+}
+
+.project-wrapper .boxedout {
+  box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.75);
+  border: 2px solid gray ;
+}
+
+.project-wrapper  .boxedin {
+  box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.75);
+  border: 1px solid gray ;
+}
+
+.project-wrapper .wrapper div {
+   min-height: 200px;
+   padding: 10px;
+}
+#one {
+  background-color: gray;
+  float:left; 
+  margin-right:20px;
+  width:200px;
+  border-right:2px solid #000;
+}
+#two { 
+  background-color: white;
+  overflow:hidden;
+  margin:10px;
+  min-height:170px;
+}
+
+@media screen and (max-width: 400px) {
+   #one { 
+    float: none;
+    margin-right:0;
+    width:auto;
+    border:0;
+    border-bottom:2px solid #000;    
+  }
+}
+}
+
+.project-wrapper text {
+  padding: 2% 5%;
+  font: normal 14px/22px sans-serif;
+  color: #222222;
+}
+
+.project-wrapper h2 a {
+  text-decoration: none;
+  color: #70879F	;
+}
+
+.project-wrapper h2 a:hover {
+ text-shadow: white 2px 5px;
+ text-decoration: none;
+ color: #98AFC7;
+}
+
+.project-wrapper p a {
+  text-decoration: none;
+  color: #000080;
+}
+
+.project-wrapper p a:hover {
+ text-shadow: white 2px 5px;
+ text-decoration: none;
+ color: #98AFC7	;
+}
+
+
+
