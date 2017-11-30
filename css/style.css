@@ -121,6 +121,7 @@ img {
   margin-right:20px;
   width:200px;
   border-right:2px solid #000;
+  min-height:170px;
 }
 #two { 
   background-color: white;
